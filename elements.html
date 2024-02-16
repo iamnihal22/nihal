@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Projects - Nihal Prasad</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Nihal's Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li ><a href="generic.html">Career Update</a></li>
+						<li class="active"><a href="elements.html">Projects</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://twitter.com/nihal22082001" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/iamnihal22082001/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/iamnihal22/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+				</nav>
+
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Projects</h1>
+								</header>
+								<p> During my entire B.tech career I have curated 6 complete projects. The details of each and every project are listed down below:- 
+									</p>
+								<!-- Lists -->
+										<div class="col-10">
+
+											<ol>
+												<li>Line Follower Bot (Automatically follows a Black line path on the ground)</li>
+												<li>Nearby Activated Cell Phone Detector Model.</li>
+												<li>Pulse Width Modulator Circuit (0% - 100%).</li>
+												<li>Buck Converter.</li>
+												<li>Railway Ticket Booking System Using JAVA.</li>
+												<li>Smart Healthcare Monitoring System Based On Internet Of Medical Things .</li>
+											</ol>
+										</div>
+
+								<p>
+									<h3>1. Line Follower Bot (Automatically follows a Black line path on the ground)</h3>
+									<div style="text-align: center;">
+										<img src="images/line.jpg" alt="" width="600" height="300" />
+										</div>
+									</br>
+									<p>
+										Building a line follower bot was an exciting adventure into the world of robotics and electronics. Armed with an Arduino Uno, a dash of ingenuity, and a hefty dose of determination, I embarked on a project that brought together learning and fun.
+										
+										The robot's heart was the Arduino Uno, a versatile microcontroller that became the brains of the operation. My chosen path relied on infrared (IR) sensors to "see" the black line on a white surface. Each sensor's output, translated into digital signals, fed into the Arduino, where my code interpreted the information and dictated the motor speeds.
+										
+										But the journey wasn't smooth sailing. Calibrating the IR sensors proved tricky, as even minor tilt angles threw off their accuracy. Frustratingly, the robot would veer off course, demanding adjustments to the sensor positions and code tweaks. I spent hours tinkering, testing, and refining, learning valuable lessons about sensor sensitivity and the importance of precise calibration.
+										
+										Another hurdle was motor control. Initially, the robot's movements were jerky and uneven, making it struggle to stay on the line. Implementing proportional control, where motor speed adjusted based on sensor readings, proved crucial. This smoother, more responsive control was a breakthrough moment, bringing the robot to life.
+										
+										Finally, after countless lines followed and corners turned, the bot navigated its course with grace and precision. The sense of accomplishment was immense. This wasn't just a robot; it was a testament to my learning, problem-solving, and perseverance.
+										
+										Building the line follower bot wasn't just about the end result; it was about the journey. It challenged me, pushed my boundaries, and instilled a love for tinkering and exploration.</p>
+									</p>
+
+								</p>
+
+									<p>
+										<h3>2. Nearby Activated Cell Phone Detector Model</h3>
+										<div style="text-align: center;">
+											<img src="images/cell.jpg" alt="" width="600" height="300" />
+											</div>
+										</br>
+										<p>The idea was simple: detect nearby activated cell phones using an Arduino. But I wanted a simpler, more analog solution. Enter the CA3130 Op-Amp, a trusty workhorse ready to translate radio waves into a buzzing beacon. My journey to build a Nearby Activated Cell Phone Detector Model wasn't smooth sailing, but it taught me valuable lessons about electronics and perseverance.
+
+											The heart of the circuit was the CA3130, amplifying the tiny signals picked up by a makeshift antenna. Balancing these signals through resistors and capacitors became my first challenge. Tiny adjustments made a huge difference, and achieving the right sensitivity took hours of tinkering and testing.
+											
+											Then came the challenge of filtering out noise. The chaotic world of radio waves is filled with distractions, and my detector often picked up random signals, leading to frustrating false positives. Experimenting with different capacitor values and antenna designs became my new mission, each iteration bringing me closer to the desired accuracy.
+											
+											Finally, I had to translate the amplified and filtered signal into a recognizable output. An LED flickered for active phones, but I craved a more audible alert. Enter the transistor duo, BC547 and BC557, amplifying the signal enough to drive a buzzer. Soldering these tiny components under a magnifying glass tested my hand-eye coordination, but the triumphant buzz upon successful detection was pure magic.
+											
+											The challenges didn't end there. Fine-tuning the antenna to specific frequencies, optimizing power consumption, and ensuring the circuit was portable all presented their own hurdles. Each obstacle, however, became a learning experience, pushing me to delve deeper into the world of electronics and apply problem-solving skills.
+											
+											Looking back, my Nearby Activated Cell Phone Detector Model stands not just as a functional device, but as a testament to the power of curiosity and the satisfaction of overcoming challenges
+											</p>
+
+										</p>
+
+								<p>
+									<h3>3. Pulse Width Modulator Circuit (0% - 100%)</h3>
+									<div style="text-align: center;">
+										<img src="images/pwm.jpg" alt="" width="600" height="300" />
+										</div>
+									</br>
+									<p>
+										The ubiquitous 555 timer is a go-to for many hobbyists, but I craved a different approach. My goal: Build a Pulse Width Modulator (PWM) circuit – the heart of countless applications – using discrete components. This journey, while rewarding, proved to be a test of my understanding and resourcefulness.
+
+My weapon of choice: a trusty op-amp. By crafting a comparator circuit with feedback, I aimed to translate an analog input voltage into a square wave with varying pulse widths. Resistor networks defined the reference voltage, dictating the duty cycle range. But translating theory into reality posed its challenges.
+
+The first hurdle lay in achieving stability. Stray noise and component tolerances could wreak havoc on the pulse width, leading to jittery outputs. Careful selection of components and meticulous layout became crucial. Hours were spent analyzing schematics, testing different op-amps, and fine-tuning feedback loops to achieve a clean, stable output.
+
+Next came the challenge of frequency control. Unlike the pre-defined frequencies offered by a 555, my circuit required an external oscillator. Experimenting with RC oscillators and LC circuits became my new focus. Each design had its trade-offs – stability versus frequency range versus component count. Finding the right balance pushed me to delve deeper into the principles of oscillation and component interactions.
+
+Finally, I had to translate the op-amp's output into a usable signal. MOSFETs proved ideal for their switching capabilities, but driving them correctly required additional circuitry. Understanding gate drive requirements, protecting against inductive loads, and ensuring efficient power management presented their own set of hurdles.
+
+The completed circuit, while more intricate than a 555-based solution, offered a sense of accomplishment beyond compare. Witnessing the precise control achieved through discrete components – a testament to careful design and problem-solving – was incredibly rewarding. It wasn't just about building a PWM circuit; it was about deepening my understanding of analog electronics and the satisfaction of creating something from scratch.
+
+So, while the 555 timer holds its place, this detour into the world of discrete PWM circuits left me with valuable lessons, newfound confidence, and a circuit that serves as a reminder that sometimes, the most rewarding journeys are those that challenge us the most.
+										</p>
+									</p>
+
+									<p>
+										<h3>4. Buck Converter</h3>
+										<div style="text-align: center;">
+											<img src="images/Buck-Converter-Circuit.jpg" alt="" width="600" height="300" />
+											</div>
+										</br>
+										<p>
+											The ever-changing voltage landscape plaguing my projects demanded a solution. A stable, consistent 12V supply, regardless of the input, was the dream. Enter the buck converter, a regulator promising smooth sailing. Building one myself, however, turned into a voyage of learning and challenge.
+
+Armed with an assortment of inductors, transistors, and the ever-trusty LM2596 chip, I embarked on my conquest. The core principle was simple: switch the input voltage on and off at a high frequency, controlling the duty cycle to extract the desired 12V. But translating theory into reality wasn't without its hurdles.
+
+The first obstacle was finding the sweet spot for the switching frequency. Too high, and I risked electromagnetic interference and component stress. Too low, and efficiency plunged. Experimenting with different inductor values and adjusting the oscillator circuit took me on a quest to understand the delicate balance between frequency, efficiency, and component limitations.
+
+Next came the battle against ripple. The switching nature of the circuit introduced unwanted fluctuations in the output voltage. Smoothing these out became my new mission. Choosing the right capacitors and fine-tuning their values became an exercise in understanding RC filters and their impact on output stability. Hours were spent analyzing ripple waveforms, adjusting component values, and chasing down elusive noise sources.
+
+Finally, ensuring feedback loop stability posed its own challenges. Slight variations in the output voltage needed to be accurately detected and fed back to control the duty cycle. Selecting the right feedback resistors and carefully designing the comparator circuit tested my understanding of control theory and its practical application.
+
+Despite the challenges, witnessing the buck converter churn out a rock-solid 12V, regardless of the input fluctuations, was pure satisfaction. The journey wasn't just about building a circuit; it was about conquering voltage instability, expanding my knowledge of power electronics, and learning the art of fine-tuning for optimal performance. This project stands as a testament to the power of perseverance and the thrill of engineering challenges overcome.
+
+So, while pre-made buck converters are readily available, my homemade version holds a special place. It's a reminder that the greatest lessons and achievements often lie in the path less traveled, filled with detours, obstacles, and ultimately, the sweet taste of success.
+										</p>
+
+									</p>
+
+									<p>
+										<h3>5. Railway Ticket Booking System Using JAVA.</h3>
+										<div style="text-align: center;">
+											<img src="images/java_logo_icon_168609.jpg" alt="" width="600" height="300" />
+											</div>
+										</br>
+										<p>
+											My goal: a Railway Ticket Booking System using BlueJ, not just simulating the experience but offering seamless data management through Excel integration. The journey, like any train voyage, had its scenic landscapes and unexpected tunnels.
+
+First, I laid the tracks with user-friendly menus. Passengers could book, cancel, or inquire about tickets, each function meticulously coded to interact with a pre-designed Excel sheet. But writing to a file isn't always smooth sailing. The initial hurdle was understanding the correct file access methods in Java. 
+
+Then came the challenge of data integrity. Each ticket booked had to be unique, and cancellations had to update the sheet accurately. Implementing error handling and validation checks became my new mission. Lines upon lines of code ensured no duplicate bookings slipped through and cancellations truly removed entries. Debugging these logic gates felt like defusing a bomb, with each successful test run a sigh of relief.
+
+Finally, I had to build a robust search engine. Passengers needed to find their bookings easily, and filtering data from the Excel sheet efficiently was crucial. Sorting algorithms and string manipulation techniques came to the rescue, allowing users to search by name, PNR, or date with lightning speed. The satisfaction of seeing my code seamlessly navigate the data labyrinth was truly rewarding.
+
+The finished project wasn't just a ticket to a good grade; it was a ticket to self-discovery. I learned the power of perseverance, the importance of meticulous testing, and the thrill of conquering technical challenges. As the virtual train of bookings chugged along, I realized that the greatest journeys often start with a blank screen and a determined spirit.
+
+While pre-built systems exist, my Java-powered ticket booking system stands as a testament to the value of hands-on learning and the sweet taste of creating something unique. It's a reminder that sometimes, the most rewarding destinations are reached through self-driven exploration and a willingness to navigate the unexpected twists and turns along the way.
+</p>
+
+<p>
+	<h3>6. Smart Healthcare Monitoring System Based On Internet Of Medical Things </h3>
+	<div style="text-align: center;">
+		<img src="images/Screenshot 2024-02-13 193837.jpg" alt="" width="600" height="300" />
+		</div>
+	</br>
+	<p>
+		Driven by a desire to empower individuals with personalized health insights, I embarked on a project to create a Smart Healthcare Monitoring System using the ubiquitous Arduino Uno and the versatile Node MCU. This device, adorned with the distinctive NodeMCU logo, aimed to measure two crucial health parameters: heart rate (BPM) and body temperature.
+
+The journey wasn't without its challenges. Integrating the LM35 temperature sensor and the Heart Beat sensor with the microcontroller demanded careful calibration and code tweaks. Ensuring accurate measurements required meticulous attention to sensor placement and signal conditioning. I spent hours poring over datasheets, experimenting with filtering techniques, and fine-tuning code to achieve reliable readings.
+
+Another hurdle lay in wireless connectivity. Equipping the system with both Wi-Fi and Bluetooth presented exciting possibilities but also meant navigating complex libraries and protocols. I delved into the world of ESP8266 modules, grappling with network configurations and security considerations. The satisfaction of seeing the device seamlessly connect to smartphones and transmit data in real-time was truly rewarding.
+
+But the heart of the project wasn't just about sensors and code. It was about usability and accessibility. I designed a user-friendly interface on an LCD display, presenting clear readings and intuitive controls. I envisioned this device not as a medical instrument, but as a personal health companion, empowering users to track trends, monitor progress, and make informed decisions about their well-being.
+
+The final product, a testament to perseverance and a fusion of electronics and healthcare, exceeded my expectations. It wasn't just a functional device; it was a symbol of possibility, a glimpse into a future where personalized health monitoring empowers individuals to take charge of their well-being. As I continue to refine and improve this system, I'm driven by the potential to democratize healthcare data, fostering a future where technology empowers us to live healthier, more informed lives.
+</p>
+									
+
+									
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="https://formspree.io/f/xpzvdryp">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>B/1A, Mainaak Gardens, 53,Lashkarpur Road, Garia<br />
+								Kolkata, West Bengal - 700084</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="https://api.whatsapp.com/send/?phone=919038584349&text&type=phone_number&app_absent=0">(+91)9038584349</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>nihalp11.np@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://twitter.com/nihal22082001" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/iamnihal22082001/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/iamnihal22/?hl=en" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>&copy; Nihal Prasad : 2024</ul>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
